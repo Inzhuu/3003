@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gallery</h1>
+    <div class="ph">
+        <div class="input_box">
+            <label for="file">
+                <button onclick="document.getElementById('file').click()">+</button>
+                <input type='file' id="file" style="display:none" onchange="uploadImg(event)">
+            </label>
+        </div>
+
+        <div id="view">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
